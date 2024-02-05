@@ -1,0 +1,37 @@
+# Python-specific .gitignore
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# Dependency management
+pip-lock.txt
+requirements.txt
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.swp
+*.swo
+*.tmp
+
+# Ignore sensitive or local configuration files
+config.ini
+secrets.json
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
